@@ -4,7 +4,9 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	 <script language="javascript"  src="jquery.js"></script>
-	 <script language="javascript"  src="application.js"></script>
+	 <script language="javascript"  src="application.js">
+	
+	 </script>
 	 <meta charset="utf-8" />
 	
 	<title>Quiz App</title>
@@ -13,7 +15,7 @@
 <body>
 	<div class="container">
 		<h1>Quiz App</h1>
-		<p>You are on question number <span id="number">NUMBER</span> of <span id="total">TOTAL</span></p>
+		<p id="progress">You are on question number <span id="number">NUMBER</span> of <span id="total">TOTAL</span></p>
 		<div class="questions">
 			<p id="singlequestion">This is where the question goes </p>
 			<form>
@@ -25,8 +27,11 @@
 			</form>
 
 
+
 		</div>
-		
+		<p id="numcorrect"></p>
+		<!--<p id="array"></p> -->
+		<button id="startover" >Start Over?</button>
 	
 	</div><!-- .container -->
 

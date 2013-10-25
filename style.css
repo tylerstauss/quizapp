@@ -48,16 +48,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-input {
-	display: inline;
-}
+
 h1 {
 	font-size: 1.5em;
 	margin: 10px;
 }
-.questions {
-	margin: 10px;
-}
+
 form {
 	margin-top: 10px;
+}
+
+#progress {
+	
+	position: relative;
+	right: -320px;
+	top: -30px;
+}
+
+#progress span {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+input.submit {
+	margin-top: 10px;
+	height: 160px;
+	width: 150px;
+	font-size: 1.1em;
+	padding: 100px;
+}
+#startover {
+	display: none;
+}
+
+#numcorrect {
+	font-size: 1.1em;
+	margin: 10px;
 }
