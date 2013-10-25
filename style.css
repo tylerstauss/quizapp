@@ -50,8 +50,10 @@ table {
 }
 
 h1 {
-	font-size: 1.5em;
-	margin: 10px;
+	font-size: 1.7em;
+	margin: 1%;
+	color: #cc2200;
+
 }
 
 form {
@@ -59,23 +61,31 @@ form {
 }
 
 #progress {
-	
 	position: relative;
 	right: -320px;
-	top: -30px;
+	top: -40px;
 }
 
 #progress span {
 	font-weight: bold;
 	font-size: 1.1em;
 }
+#singlequestion {
+	margin: 2%;
+	font-size: 1.3em;
+	font-weight: bold;
+}
 
 input.submit {
-	margin-top: 10px;
-	height: 160px;
-	width: 150px;
+	margin: 1.5%;
+	width: 25%;
 	font-size: 1.1em;
-	padding: 100px;
+	color: #11aa11;
+}
+
+.radio {
+	padding: 5%;
+	margin: .75%;
 }
 #startover {
 	display: none;
@@ -83,5 +93,37 @@ input.submit {
 
 #numcorrect {
 	font-size: 1.1em;
-	margin: 10px;
+	margin: 1%;
+	color: #00cc00;
 }
+
+.questions {
+	border: 1px solid #ccc;
+	width: 50%;
+	margin: 1% auto;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 875px){
+
+#progress {
+	position: relative;
+	right: 0px;
+	top: 0px;
+	margin: 1%;
+}
+input.submit {
+	width: 35%;
+}
+
+}
+
+@media screen and (max-width: 605px){
+.questions {
+	width: 80%;
+}
+input.submit {
+	width: 50%;
+}
+
+	}
